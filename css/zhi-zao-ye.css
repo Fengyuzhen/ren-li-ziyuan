@@ -1,0 +1,360 @@
+    body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+.kbtn,
+input,
+textarea,
+th,
+td,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    color: #000;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body,
+.kbtn,
+input,
+select,
+textarea {
+    /*font-size: 12px;*/
+    /*定义字体 */
+    font-family: "微软雅黑";
+}
+
+ul,
+ol,
+li,
+dl,
+dd,
+dt {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+legend {
+    color: #000;
+}
+
+img {
+    border: 0;
+}
+
+
+/*解决IE图片缩放失真*/
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+/*@media only screen and (min-width:1024px) and (max-width:1439px) {}*/
+@media only screen and (min-width:1024px) and (max-width:1439px) {
+
+ .swiper-container.swd-contaner{
+        width: 100%;
+        height: 600px;
+        position: relative;   
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+ .nee-left{
+    	width:54px ;
+    	height:109px ;
+    	position: absolute;
+    	
+    	left: 0px;
+    	top:50%;
+    	 transform:translateY(-50%);
+    	background: url(../img/index/btn-left1.png) no-repeat;
+    	z-index: 2;
+    }
+ .nee-ring{
+    	width:54px ;
+    	height:109px;
+    	position: absolute;
+    	right:0;
+    	top:50%;
+        transform:translateY(-50%);
+    	background: url(../img/index/btn-right1.png) no-repeat;
+    	z-index: 2;   /*问题层级不够，2.按钮的父级也要加进去，3.一定要给父级定位，只要在媒体里查询才有，是因为他太大就没有了，超出你的范围才没有，不显示自己的原因*/
+    }
+ .herder-font{
+    	position:absolute;
+    	z-index: 100;
+    	width:60%;
+    	height:230px;
+    	margin-top:15%;
+    	margin-left:20%;
+    	color:white;
+    	font-family: "微软雅黑";
+  }
+ .herder-font>p:nth-child(1){
+ 	font-size:48px;
+ 	text-align: center;
+ 	margin-top:2%;
+ 
+ }
+    .herder-font>p:nth-child(2){
+    	width:80%;
+    	text-align: center;
+    	font-size:16px;
+    	margin-left:5%;
+    	margin-top:2%;
+    	
+    }
+    .herder-font>p:nth-child(3){
+    	width:80%;
+    	text-align: center;
+    	font-size:16px;
+    	margin-left:5%;
+    	margin-top:2%;
+    }
+    .mian-font{
+    	width:100%;
+    	height:406px;
+    	
+    }
+    .main-font-left{
+    	width:50%;
+    	height:406px;
+    	float:left;
+    	
+    	
+    }
+     .main-font-left>ul{
+     	widows: 70;%;
+     	
+     	margin-left:30%;
+     	
+     }
+     .main-font-left>ul>p:nth-child(1){
+     	font-size:30px;
+     	color:#c31b26;
+     	font-family:"微软雅黑";
+     	padding-top:10%;
+     	
+     }
+      .main-font-left>ul>li{
+      margin-top:8%;
+      }
+      .main-font-left>ul>li>span:nth-child(1){
+      	font-size:16px;
+      	font-family: "微软雅黑";
+      	color:black;
+      	
+      }
+      .main-font-left>ul>li>p{
+      	line-height: 24px;
+      	color:#777777;
+      	font-size:14px;
+      	font-family: "微软雅黑";
+      	padding-left:3%;
+      }
+    .main-font-right{
+    	width:50%;
+    	height:406px;
+    	float:left;
+    	
+    	
+    }
+     .main-font-right>ul>p:nth-child(1){
+     	
+     	font-size:30px;
+     	color:#c31b26;
+     	font-family:"微软雅黑";
+     	padding-top:10%;
+     	
+     }
+      .main-font-right>ul{
+     	widows: 70;%;
+     }
+     .main-font-right>ul>li{
+         margin-top: 2%;
+     
+     	
+     }
+     .main-font-right>ul>li>img{
+     	vertical-align: middle;
+     }
+     
+      .main-font-right>ul>li>span{
+      	font-size:16px;
+      	font-family: "微软雅黑";
+      	padding-left:1%;
+      }
+      
+    /*结束*/
+    .jie-jue{
+    	width:100%;
+    	height:1089px;
+    	background: #f2f2f2;
+    }
+    .jie-font{
+    	width:100%;
+    	height:180px;
+    	line-height: 180px;
+    	font-family: "微软雅黑";
+    	font-size:30px;
+    	text-align: center;
+    }
+    .jie-jue>ul{
+    	width:90%;
+    	margin-left:5%;
+    	background: olive;
+    }
+    .jie-jue>ul>li{
+    	width:372px;
+    	height:195px;
+    	border:1px solid #e7e7e7;
+    	float:left;
+    	margin-left:2%;
+    	margin-top:2%;
+    	text-align: center;
+    	display: inline-table;
+    }
+     .jie-jue>ul>li>img{
+     	padding-top:5%;
+     }
+     .jie-jue>ul>li>p{
+     	width:83%;
+     	text-align: center;
+     	margin-left:10%;
+     	font-size:14px;
+     	font-family: "微软雅黑";
+     }
+    /*结束*/
+   
+    .liu-cheng{
+    	width:100%;
+    	height:565px;
+    
+    }
+    .liu-cheng-fong{
+    	width:100%;
+    	height:134px;
+    	text-align: center;
+			font-size:30px;
+			font-family:"微软雅黑";
+			line-height:134px;
+    }
+     .liu-cheng>img{
+     	margin-left:7%;
+     }
+    
+    .mina-imgds{
+    	width:100%;
+    	height:452px;
+    	background:url(../img/jiejue/01/20.gif) 
+    	no-repeat;
+    
+    }
+    .mian-imgds-font{
+    	width:70%;
+    	height:452px;
+    	margin-left:5%;
+    	color:white;
+    }
+    .mian-imgds-font>p:nth-child(1){
+    	font-size:30px;
+    	padding-top:8%;
+    }
+    .mian-imgds-font>p:nth-child(2){
+    	font-size:30px;
+    	font-family: arial;
+    }
+    .mian-imgds-font>p:nth-child(3){
+    	font-size:16px;
+    	font-family: "微软雅黑";
+    	width:60%;
+    	text-align:left;
+    	padding-top:2%;
+    }
+     .mian-imgds-font>p:nth-child(4){
+     	font-size:14px;
+     	padding-top:5%;
+     }
+   
+    .videxo{
+    	width:100%;
+    	height:404px;
+    	
+    }
+    .vide-img{
+    	padding-left:4%;
+			
+    }
+
+    .vide-img>li{
+    	float:left;
+    	font-size:14px;
+    	font-family: "微软雅黑";
+    	margin-left:3.5%;
+    		margin-top:4%;
+    }
+    .vide-pin-pau{
+    	margin-left:6%;
+    }
+     .vide-pin-pau>li{
+     	float:left;
+     	margin-top:5%;
+     	margin-left:1.5%;
+     }
+    
+    
+    
+    
+    
+    
+    };

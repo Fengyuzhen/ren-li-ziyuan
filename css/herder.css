@@ -1,0 +1,218 @@
+  body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+.kbtn,
+input,
+textarea,
+th,
+td,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    color: #000;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body,
+.kbtn,
+input,
+select,
+textarea {
+    /*font-size: 12px;*/
+    /*定义字体 */
+    font-family: "微软雅黑";
+}
+
+ul,
+ol,
+li,
+dl,
+dd,
+dt {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+legend {
+    color: #000;
+}
+
+img {
+    border: 0;
+}
+
+
+/*解决IE图片缩放失真*/
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+/*@media only screen and (min-width:1024px) and (max-width:1439px) {}*/
+@media only screen and (min-width:1024px) and (max-width:1439px) {
+
+nav {
+  width:100%;
+height:80px;
+
+position: fixed;
+ z-index: 100;
+  
+}
+
+ nav>ul{
+width:70%;
+ line-height: 80px;
+ position:absolute ;
+ right:-10%;
+ 
+ 
+}
+.olu{
+width:100%;
+ background:black;
+ height:80px;
+ position:absolute;
+ left:0;
+ top:0px;
+
+}
+nav>ul>li{
+	width:10%;
+	float:left;
+	height:80px;
+	z-index:100 ;
+	text-align: center;
+}
+nav>ul>li:hover{
+	border-bottom:2px solid white ;
+}
+nav>ul>li>a:hover{
+	color:white;
+	}
+nav>ul>li>a{
+	display:block;
+	color:white;
+	font-size:14px;
+	height:80px;
+	width:100%;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+.xia-la{
+	width:100%;
+	height:272px;
+	position:relative;
+	left:0;
+	top:80px;
+	z-index:200;
+	display: none;
+}
+
+.xia-ladd{
+	width:100%;
+	min-height:272px;
+	background:white;
+	position:absolute;
+	display: none;
+	z-index: 100;
+	
+}
+.xia-ladd>img{
+	width:289px;
+	height:196px;
+	margin-left:35%;
+	margin-top:2%;
+	float:left;
+	z-index: 100;
+	}
+	.xia-la-font{
+		margin-top:2%;
+		width:30%;
+		float:left;
+		font-size:18px;
+		color:black;
+		margin-left:3%;
+		z-index: 100;
+		}
+		.xia-la-font>p:nth-child(1){
+			height:30px;
+			border-bottom:1px solid #8e8e8e ;
+			width:90%;
+			z-index: 100;
+			}
+			.xia-la-font>ul{
+				height:80px;
+				z-index: 100;
+			}
+		.xia-la-font>ul>li{
+			font-size:18px;
+			color:#8e8e8e;
+			margin-left:2%;
+			margin-top:3%;
+			z-index: 100;
+			
+			}
+.clert{
+	clear:both;
+}
+.dkksdksd{
+	width:100%;
+	height:400px;
+	background: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
